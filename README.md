@@ -1,4 +1,4 @@
-# Week 1 In Class
+# Week 1: Github and Review
 
 ## Using Github
 
