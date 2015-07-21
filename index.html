@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            $(function(){
+                var num = 0;
+                var oneUp = function(){
+                    num++;
+                }
+                var printNum = function(){
+                    $('#output').innerHTML = num;
+                }
+                printNum();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="output"></div>
+        <button>One Up</button>
+    </body>
+</html>
