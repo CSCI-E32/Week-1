@@ -21,7 +21,7 @@
 5. Push the commit
 6. Submit a pull request
 
-## Work with someone else
+## Bonus: Work with someone else
 
 1. Fork their repo from the first part
 2. Make a change
