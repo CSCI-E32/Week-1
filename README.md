@@ -21,6 +21,15 @@
 5. Push the commit
 6. Submit a pull request
 
+## Use Github Pages
+
+1. [Check out this explaination](https://help.github.com/articles/creating-project-pages-manually/)
+2. Create a new branch for your project locally called `gh-pages`
+3. Push that branch to github
+4. Go to your-github-name.github.io/your-project-name
+5. See if it works
+6. Rejoice
+
 ## Bonus: Work with someone else
 
 1. Fork their repo from the first part
