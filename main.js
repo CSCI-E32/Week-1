@@ -1,10 +1,17 @@
 $(function(){
+    var num = 0;
+    
   var oneUp = function(){
-    num++;
+      num++;
   };
   var printNum = function(){
-    var num = 0;
     $('#output').html(num);
   };
+
+    $('#my-button').on('click', function() {
+	oneUp();
+	printNum();
+    });
+    
   printNum();
 });
