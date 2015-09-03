@@ -3,8 +3,9 @@ $(function(){
     num++;
   };
   var printNum = function(){
-    var num = 0;
     $('#output').html(num);
   };
+  var num = 0;
   printNum();
+  $("#my-button").click (function() { oneUp(); printNum();});
 });
