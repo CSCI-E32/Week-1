@@ -1,10 +1,16 @@
 $(function(){
-  var oneUp = function(){
-    num++;
+  $('#my-button').on('click', buttonUpHandler);
+
+  function buttonUpHandler(e) {
+    e.preventDefault();
+    var num = parseInt($('#output').text());
+    printNum(oneUp(num));
+  }
+  var oneUp = function(num){
+    return ++num;
   };
-  var printNum = function(){
-    var num = 0;
+  var printNum = function(num){
     $('#output').html(num);
   };
-  printNum();
+  printNum(0);
 });
