@@ -1,10 +1,15 @@
 $(function(){
-  var oneUp = function(){
-    num++;
-  };
-  var printNum = function(){
-    var num = 0;
-    $('#output').html(num);
-  };
-  printNum();
+
+  // Set the number
+  $('#output').html(0);
+
+  // On click, increment
+  $('#my-button').click(function(oneUp){
+
+      var num = $('#output').text();
+      num++;
+      $('#output').html(num);
+
+  });
+
 });
