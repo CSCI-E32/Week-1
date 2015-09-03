@@ -1,10 +1,8 @@
 $(function(){
-  var oneUp = function(){
-    num++;
-  };
-  var printNum = function(){
-    var num = 0;
+  var num = 0;
+  $('#my-button').click(function() {
+    num = num+1;
     $('#output').html(num);
-  };
-  printNum();
+  });
+  $('#output').html(num);
 });
